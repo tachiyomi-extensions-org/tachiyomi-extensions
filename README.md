@@ -11,6 +11,32 @@ This repository contains the available extension catalogues for the [Tachiyomi](
 
 Extension sources can be downloaded, installed, and uninstalled via the main Tachiyomi app. They are installed and uninstalled like regular apps, in `.apk` format.
 
+
+## Add the Repository
+
+Tachiyomi (v0.15.0+):
+1. Go to More → Settings → Browse
+2. Tap on "Extension repos" and then "Add" button at bottom
+3. Input `https://raw.githubusercontent.com/tachiyomi-extensions-org/tachiyomi-extensions/repo/index.min.json`
+4. Enjoy!
+
+TachiyomiSY:
+1. Go to More → Settings → Browse
+2. Tap on "Edit repos" and then "Add" button at bottom
+3. Input `tachiyomi-extensions-org/tachiyomi-extensions`
+4. Enjoy!
+
+TachiyomiAZ:
+1. Go to Settings → Browse
+2. Tap on "Edit repos" and then "+" button at bottom
+3. Input `tachiyomi-extensions-org/tachiyomi-extensions`
+4. Enjoy!
+
+
+> [!NOTE]
+> TachiyomiSY and TachiyomiAZ have not been tested. If you are able to test them successfully, please let us know!
+
+
 ## Downloads
 
 If you prefer to directly download the APK files, they are available via https://tachiyomi.org/extensions/ or directly in this GitHub repository in the [`repo` branch](https://github.com/tachiyomi-extensions-org/tachiyomi-extensions/tree/repo/apk).
