@@ -288,7 +288,7 @@ class ProjectSuki : HttpSource(), ConfigurableSource {
      * [SManga]'s url should be in relative form, see [this SO answer](https://stackoverflow.com/a/21828923)
      * for a comprehensive difference between relative and absolute URLs.
      *
-     * [SManga]'s thumbnail_url should instead be in absolute form. If possible [it should be set](https://github.com/tachiyomiorg/tachiyomi-extensions/blob/master/CONTRIBUTING.md#popular-manga)
+     * [SManga]'s thumbnail_url should instead be in absolute form. If possible [it should be set](https://github.com/tachiyomi-extensions-org/tachiyomi-extensions/blob/master/CONTRIBUTING.md#popular-manga)
      * at this point to avoid additional server requests. But if that is not possible, [fetchMangaDetails] will be called to fill in the details.
      */
     override fun popularMangaParse(response: Response): MangasPage {

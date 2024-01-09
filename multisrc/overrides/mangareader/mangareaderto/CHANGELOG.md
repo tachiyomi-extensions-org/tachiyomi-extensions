@@ -10,8 +10,8 @@
   - `android.net.Uri` → `okhttp3.HttpUrl`
   - `org.json` → `kotlinx.serialization`
 - Refactored some code to separate files
-- Image quality preference: added prompt to summary and made it take effect without restart, fixes [#12504](https://github.com/tachiyomiorg/tachiyomi-extensions/issues/12504)
-- Added preference to show additional entries in volumes in list results and added code to support volumes, fixes [#12573](https://github.com/tachiyomiorg/tachiyomi-extensions/issues/12573)
+- Image quality preference: added prompt to summary and made it take effect without restart, fixes [#12504](https://github.com/tachiyomi-extensions-org/tachiyomi-extensions/issues/12504)
+- Added preference to show additional entries in volumes in list results and added code to support volumes, fixes [#12573](https://github.com/tachiyomi-extensions-org/tachiyomi-extensions/issues/12573)
 - Improved parsing
   - Added code to parse authors and artists
   - Improved chapter list parsing
@@ -20,9 +20,9 @@
 - Added French, Korean and Chinese languages
 - Corrected filter note type (Text → Header)
 - Rewrote image descrambler
-  - Used fragment in URL instead of appending error-prone query parameter, hopefully fixes [#12722](https://github.com/tachiyomiorg/tachiyomi-extensions/issues/12722)
+  - Used fragment in URL instead of appending error-prone query parameter, hopefully fixes [#12722](https://github.com/tachiyomi-extensions-org/tachiyomi-extensions/issues/12722)
   - Made interceptor singleton to be shared across languages
-  - Simplified code logic to make it a lot more readable, thanks to Vetle in [#9325 (comment)](https://github.com/tachiyomiorg/tachiyomi-extensions/pull/9325#issuecomment-1100950110) for code reference
+  - Simplified code logic to make it a lot more readable, thanks to Vetle in [#9325 (comment)](https://github.com/tachiyomi-extensions-org/tachiyomi-extensions/pull/9325#issuecomment-1100950110) for code reference
   - Used `javax.crypto.Cipher` for ARC4
   - Memoize permutation result to reduce calculation
   - Save as compressed JPG instead of PNG to avoid size bloat (original image is already compressed)
